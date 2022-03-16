@@ -1,0 +1,21 @@
+.account__login--icon {
+    all: unset;
+}
+.navbar-brand {
+  color: red;
+}
+
+.navbar-brand:hover {
+  transition: 0.5s;
+}
+
+.account__login {
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.account__login:hover {
+  color: red;
+  transition: 0.5s;
+}

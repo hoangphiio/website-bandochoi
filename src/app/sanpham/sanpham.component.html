@@ -1,0 +1,35 @@
+<div class="phi__container" style="padding: 4rem;">
+    <button type="button" class="button_add btn btn-danger" (click)="addSanpham()">Thêm sản phẩm</button>
+    <table id="sanpham" style="border-collapse: collapse; text-align:center">
+        <tr>
+            <th>Chức năng</th>
+            <th>ID</th>
+            <th>Hình ảnh</th>
+            <th>Thương hiệu</th>
+            <th>Tên sản phẩm</th>
+            <th>Mã sản phẩm</th>
+            <th>Chất liệu</th>
+            <th>Số lượng tồn kho</th>
+            <th>Giá sản phẩm</th>
+        </tr>
+        <tr *ngFor="let sanpham of sanpham">
+            <td title="Xóa sản phẩm">
+                <button type="button" class="button_add btn btn-primary"
+                    (click)="deleteSanpham(sanpham.id)">Xóa</button>&nbsp;
+                <button type="button" class="button_add btn btn-primary" (click)="editSanpham(sanpham.id)">Sửa</button>
+            </td>
+            <td>{{ sanpham?.id}}</td>
+            <td style="text-align: center;">
+                <img *ngIf="sanpham?.img" src="{{ sanpham?.img}}" height="100" />
+            </td>
+            <td style="text-align: center;">
+                <img *ngIf="sanpham?.thuonghieu" src="{{ sanpham?.thuonghieu}}" height="100" />
+            </td>
+            <td>{{ sanpham?.tensanpham }}</td>
+            <td>{{ sanpham?.masanpham }}</td>
+            <td>{{ sanpham?.chatlieu }}</td>
+            <td>{{ sanpham?.soluongtonkho }}</td>
+            <td>{{ sanpham?.giasanpham }}</td>
+        </tr>
+    </table>
+</div>

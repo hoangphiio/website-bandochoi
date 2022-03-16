@@ -1,0 +1,54 @@
+{
+  "sanpham": [
+    {
+      "img": "https://i.ytimg.com/vi/9dVkTgZRcy0/maxresdefault.jpg",
+      "thuonghieu": "https://u6wdnj9wggobj.vcdn.cloud/media/mageplaza/brand/Icon-up-web-MKD_116x58_airhogs_1.png",
+      "tensanpham": "5 anh em siêu nhân gao",
+      "masanpham": "Code-MS1",
+      "chatlieu": "Silicon",
+      "soluongtonkho": "5000",
+      "giasanpham": "12.00.000VNĐ",
+      "id": 1
+    },
+    {
+      "img": "https://giaonhanlogistics.com/wp-content/uploads/2018/11/do-choi-biet-doi-sieu-anh-hung-avengers.jpeg",
+      "thuonghieu": "https://u6wdnj9wggobj.vcdn.cloud/media/mageplaza/brand/Icon-up-web-MKD_116x58_avenger.png",
+      "tensanpham": "Siêu anh hùng Avenger",
+      "masanpham": "Code-MS2",
+      "chatlieu": "Silicon",
+      "soluongtonkho": "3000",
+      "giasanpham": "2.000.000VNĐ",
+      "id": 2
+    },
+    {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMkISBN4ifraOcqpEYhgslt0I0XPJZpakcUg&usqp=CAU",
+      "thuonghieu": "https://u6wdnj9wggobj.vcdn.cloud/media/mageplaza/brand/Icon-up-web-MKD_116x58_barbe.png",
+      "tensanpham": "Búp bê Barbie",
+      "masanpham": "Code-MS3",
+      "chatlieu": "Silicon",
+      "soluongtonkho": "2000",
+      "giasanpham": "1.500.000VNĐ",
+      "id": 3
+    },
+    {
+      "img": "https://wall.vn/wp-content/uploads/2020/03/hinh-nen-nguoi-doi-batman-4.jpg",
+      "thuonghieu": "https://u6wdnj9wggobj.vcdn.cloud/media/mageplaza/brand/Icon-up-web-Batman-_160x80_4.png",
+      "tensanpham": "Chiến binh BatMan",
+      "masanpham": "Code-MS4",
+      "chatlieu": "Silicon",
+      "soluongtonkho": "1000",
+      "giasanpham": "1.200.000VNĐ",
+      "id": 4
+    },
+    {
+      "img": "https://file.vfo.vn/hinh/2018/03/hinh-anh-sieu-nhan-gao-sieu-nhan-nhen-sieu-nhan-than-kiem-dep-to-mau-27.jpg",
+      "thuonghieu": "https://u6wdnj9wggobj.vcdn.cloud/media/mageplaza/brand/Icon-up-web-MKD_116x58_airhogs_1.png",
+      "tensanpham": "Siêu nhân mãnh thú",
+      "masanpham": "Code-MS5",
+      "chatlieu": "Silicon",
+      "soluongtonkho": "1300",
+      "giasanpham": "2.000.000VNĐ",
+      "id": 5
+    }
+  ]
+}

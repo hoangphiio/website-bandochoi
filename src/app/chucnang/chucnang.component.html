@@ -1,0 +1,47 @@
+<div class="container">
+    <h2 style="text-align: center; margin-bottom: 1rem;">Thêm sản phẩm mới</h2>
+    <form [formGroup]="chucnang">
+        <div class="form-group">
+            <label for="exampleInputEmail1"><i class="far fa-image"></i> Hình ảnh</label>
+            <input type="img" class="form-control" id="img" aria-describedby="emailHelp" placeholder="Hình ảnh"
+                formControlName="img">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1"><i class="fab fa-angular"></i> Thương hiệu</label>
+            <input type="thuonghieu" class="form-control" id="thuonghieu" aria-describedby="emailHelp" placeholder="Thương hiệu"
+                formControlName="thuonghieu">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1"><i class="fas fa-file-signature"></i> Tên sản phẩm</label>
+            <input type="tensanpham" class="form-control" id="tensanpham" placeholder="Tên sản phẩm"
+                formControlName="tensanpham">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1"><i class="fas fa-code"></i> Mã sản phẩm</label>
+            <input type="masanpham" class="form-control" id="masanpham" placeholder="Mã sản phẩm"
+                formControlName="masanpham">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1"><i class="fas fa-carrot"></i> Chất liệu</label>
+            <input type="chatlieu" class="form-control" id="chatlieu" placeholder="Chất liệu"
+                formControlName="chatlieu">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1"><i class="fas fa-plus"></i> Số lượng tồn kho</label>
+            <input type="soluongtonkho" class="form-control" id="soluongtonkho" placeholder="Số lượng tồn kho"
+                formControlName="soluongtonkho">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1"><i class="fas fa-money-bill"></i> Giá sản phẩm</label>
+            <input type="giasanpham" class="form-control" id="giasanpham" placeholder="Giá sản phẩm"
+                formControlName="giasanpham">
+        </div>
+        <small id="emailHelp" class="form-text text-muted">Vui lòng nhập đầy đủ thông tin</small>
+        <button type="submit" class="btn btn-danger" [disabled]="!chucnang.valid" (click)="saveAndGotoList()"> Thêm
+            sản phẩm </button>
+        &nbsp;
+        <button type="submit" class="btn btn-danger" [disabled]="!chucnang.valid" (click)="save()"> Lưu<span
+                *ngIf="id == 0"> và nhập mới</span>
+        </button>
+    </form>
+</div>

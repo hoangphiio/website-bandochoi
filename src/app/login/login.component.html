@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <form id="loginForm" (ngSubmit)="onSubmit()" #loginForm="ngForm">
+                <div style="padding: 1rem;" class="card">
+                    <div class="card-head">
+                        <h2 style="text-align: center;">Đăng nhập vào hệ thống</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHid"
+                                placeholder="Email" ngModel required minlength="6" #email="ngModel">
+                            <small id="emialHid" *ngIf="!email?.valid && (email?.dirty || email?.touched)"
+                                class="formtext text-muted">Email không hợp lệ hoặc để trống</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" name="password" id="password"
+                                aria-describedby="passwordHid" placeholder="Password" ngModel required minlength="6"
+                                #password="ngModel">
+                            <small *ngIf="!password?.valid && (password?.dirty || password?.touched)" id="emialHid"
+                                class="formtext text-muted">Password không đúng hoặc để trống</small>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-primary">
+                            Đăng nhập
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

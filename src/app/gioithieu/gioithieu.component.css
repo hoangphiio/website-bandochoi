@@ -1,0 +1,24 @@
+.phi__row {
+  padding: 0 3rem;
+}
+
+.col-md-4 h3 {
+  text-align: center;
+}
+
+.text-dark {
+  text-decoration: unset;
+}
+
+.col-md-8 h1 {
+  margin-bottom: 2rem;
+}
+
+.blog-loop {
+  margin-bottom: 3rem;
+}
+
+.blog-post-title a{
+    text-decoration: unset;
+    color: black;
+}

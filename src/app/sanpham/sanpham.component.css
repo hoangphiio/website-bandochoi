@@ -1,0 +1,35 @@
+#sanpham {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+#sanpham td,
+#sanpham th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#sanpham tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#sanpham tr:hover {
+  background-color: #ddd;
+}
+
+#sanpham th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: white;
+}
+
+.button_add{
+  margin-bottom: 1rem;
+}
+
+#sanpham tr th{
+  text-align: center;
+}
